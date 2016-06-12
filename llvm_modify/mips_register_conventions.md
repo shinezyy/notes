@@ -11,10 +11,14 @@ the rest registers are almost equivalent:
 ```
 
 So I want to assign 3 or 4 of these 12 registers as SRAM register:
-``` $AT, $T0, $T1, $T2
+```
+$T6, $T7, $T8, $T9
+14, 15, 24, 25
 ```
 
-Then 1 or 2 of Saved Registers and SRAM registers:
-``` $S0, $S1
+all of argument registers are SRAM register, because llvm like to use them:
+```
+$A0, $A1, $A2, $A3
+4,5,6,7
 ```
 
