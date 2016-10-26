@@ -35,5 +35,11 @@ By reference as convention.
 
 Squash action to a dynInst is done in rob_impl around line 390
 
+----------------------------------
+
+VROB in backend miss accounting is used to tell out which thread clogs the
+pipeline.
+
+
 ```
 
