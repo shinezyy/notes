@@ -20,4 +20,6 @@ and open a stream to output
 
 After IEW is finished, before commit finished
 
-Find infinite loop in commit();
+Find infinite loop in resolveBranch
+
+
